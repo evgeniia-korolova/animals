@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf) format("truetype");
+    src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+    src: url(../fonts/Roboto-Medium.ttf) format("truetype");
+    src: url(../fonts/Roboto-Light.ttf) format("truetype");    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+
+.arrow__active {
+    fill: aquamarine;
+    color: bisque;
+}
+
+.arrow {
+    background: transparent;
+    border: none;
+}
